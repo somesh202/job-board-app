@@ -16,9 +16,6 @@ const App = () => {
   return (
     <Container>
       <Grid container spacing={3}>
-        <Grid item xs={12} sm={3}>
-          <FilterComponent filters={filters} />
-        </Grid>
        
           {/* Jobs list component */}
           <JobsList />

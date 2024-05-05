@@ -53,7 +53,6 @@ const mapStateToProps = (state) => ({
   jobs: state.jobReducer.jobs,
   loading: state.jobReducer.loading,
   filters: state.jobReducer.filters,
-
 });
 
 export default connect(mapStateToProps, { fetchJobs , updateFilters})(JobsList);
