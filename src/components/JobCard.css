@@ -1,0 +1,108 @@
+*{
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+}
+.job-card {
+    max-width: 400px;
+    flex-grow: 1;
+    border: 1px solid #e5e5e5;
+    border-radius: 10px;
+    padding: 20px;
+    margin-bottom: 20px;
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .job-card-header {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+  }
+  .salary {
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 700;
+    color: rgb(72, 69, 88);
+  }
+  .company-logo {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    margin-right: 15px;
+  }
+  
+  .job-details {
+    flex: 1;
+  }
+  
+  .job-title {
+    font-size: 18px;
+    line-height: 1.5;
+    margin-top: -4px;
+  }
+  
+  .company-name {
+    font-size: 22px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    margin-bottom: 3px;
+    color: #8b8b8b;
+    font-family: __LexendFont_7838d2,__LexendFont_Fallback_7838d2;
+  }
+  
+  .job-description {
+    margin-bottom: 15px;
+  }
+  
+  .job-card-footer {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .location, .experience, .salary {
+    margin: 0;
+  }
+  
+  .apply-btn {
+    width: 100%;
+    background-color: rgb(85, 239, 196);
+    color: rgb(0, 0, 0);
+    font-weight: 500;
+    padding: 8px 18px;
+    margin: auto;
+    text-align: center;
+    border-radius: 14px;
+    margin-bottom: 20px;
+  }
+  .location {
+    font-size: 18px;
+    font-weight: 500;
+    margin-top: 5px;
+  }
+  .apply-btn:hover {
+    background-color: #0056b3;
+  }
+  
+  .job-card-body h3{
+    font-size: 1.22em;
+    font-weight: 600;
+  }
+  .job-card-body p {
+    white-space: pre-wrap;
+    font-size: 14px;
+}
+.button-cont{
+  display: flex;
+  flex-direction: column;
+  margin: 12px;
+}
+.referral-btn {
+  width: 100%;
+  color: rgb(0, 0, 0);
+  font-weight: 500;
+  padding: 8px 18px;
+  margin: auto;
+  text-align: center;
+  border-radius: 14px;
+  margin-bottom: 20px;
+  color: #fff;
+  background-color: #1a73e8;
+}
